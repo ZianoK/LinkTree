@@ -3,78 +3,115 @@
     padding: 0;
 }
 
-img {
+.yo {
     width: 300px;
     border-radius: 100%;
     margin-top: 100px;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* espacio horizontal entre íconos */
+    padding: 10px 0;
+    /* espacio arriba y abajo del bloque */
+    list-style: none;
+}
+
+.redes li {
+    margin: 0;
+}
+
+.redes img {
+    width: 40px;
+    height: auto;
+    margin: 0;
+    filter: brightness(0) invert(1);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.redes img:hover {
+    transform: scale(1.05);
 }
 
 header {
     text-align: center;
 }
 
+
+
 header ul li {
     display: inline;
 }
 
 header h1 {
-     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  color: rgb(255, 64, 64);
-  font-size: 70px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 64, 64);
+    font-size: 70px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.521);
 }
 
 header h2 {
-   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  color: rgb(255, 255, 255);
-  font-size: 45px; 
-  margin-top: 20px;
-  margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.521);
 }
 
 header h3 {
-   font-family: "Birthstone", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-  margin-top: -60px;
-  color: rgb(255, 64, 64);
+    font-family: "Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: -60px;
+    color: rgb(255, 64, 64);
 }
+
 nav {
     text-align: center;
     margin-top: 50px;
 }
 
 nav li {
-    margin-bottom: 30px;
-
+    margin-bottom: 15px;
+    
 }
 
-nav a {
-    padding: 10px 100px; 
-    background-color: rgb(157, 205, 228);
+nav li a {
+    display: block;
+    width: 450px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(88, 88, 88, 0.514);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.521);
     border-radius: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    transition: background-color 0.3s;
+    
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.404);
+    text-decoration: none;
 }
 
 body {
     background-image: url("./imagenes/arena.jpg");
     background-size: cover;
-}
-
-
-.video-boton {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.video-boton:hover {
-  opacity: 1;
 }
