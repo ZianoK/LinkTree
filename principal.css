@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+}
+
+header h1 {
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(255, 64, 64);
+  font-size: 70px;
+}
+
+header h2 {
+   font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 45px; 
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+header h3 {
+   font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  margin-top: -60px;
+  color: rgb(255, 64, 64);
+}
+nav {
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav li {
+    margin-bottom: 30px;
+
+}
+
+nav a {
+    padding: 10px 100px; 
+    background-color: rgb(157, 205, 228);
+    border-radius: 50px;
+}
+
+body {
+    background-image: url("./imagenes/arena.jpg");
+    background-size: cover;
+}
+
+
+.video-boton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.video-boton:hover {
+  opacity: 1;
+}
